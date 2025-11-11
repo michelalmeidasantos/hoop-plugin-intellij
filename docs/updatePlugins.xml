@@ -5,6 +5,7 @@
             version="1.0.0">
         <name>Hoop Database Manager</name>
         <description>Gerenciador de conexões Hoop para IntelliJ. Permite login, listagem, conexão e gerenciamento de bancos de dados via Hoop.</description>
+        <vendor email="michel.cdp1@gmail.com" url="https://michelalmeidasantos.com">Michel Roma</vendor>
         <idea-version since-build="243" until-build="243.*"/>
         <change-notes><![CDATA[
       <h3>v1.0.0</h3>
