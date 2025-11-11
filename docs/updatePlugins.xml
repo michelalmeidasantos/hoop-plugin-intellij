@@ -3,20 +3,22 @@
     <plugin id="com.hoop.plugin.hoop-plugin-intellij"
             url="https://michelalmeidasantos.github.io/hoop-plugin-intellij/hoop-plugin-intellij-1.0.0.zip"
             version="1.0.0">
-        <name>Hoop Database Manager</name>
-        <description>Gerenciador de conexões Hoop para IntelliJ. Permite login, listagem, conexão e gerenciamento de bancos de dados via Hoop.</description>
-        <vendor email="michel.cdp1@gmail.com" url="https://michelalmeidasantos.com">Michel Roma</vendor>
-        <idea-version since-build="243" until-build="243.*"/>
-        <change-notes><![CDATA[
-      <h3>v1.0.0</h3>
-      <ul>
-        <li>Login no Hoop via browser</li>
-        <li>Listar todas as conexões disponíveis</li>
-        <li>Conectar em múltiplos bancos simultaneamente</li>
-        <li>Verificar status das conexões ativas</li>
-        <li>Notificações automáticas de desconexão</li>
-        <li>Salva portas configuradas automaticamente</li>
-      </ul>
-    ]]></change-notes>
+        <idea-plugin>
+            <name>Hoop Database Manager</name>
+            <description>Gerenciador de conexões Hoop para IntelliJ. Permite login, listagem, conexão e gerenciamento de bancos de dados via Hoop.</description>
+            <vendor email="michel.cdp1@gmail.com" url="https://michelalmeidasantos.com">Michel Roma</vendor>
+            <idea-version since-build="243" until-build="243.*"/>
+            <change-notes><![CDATA[
+              <h3>v1.0.0</h3>
+              <ul>
+                <li>Login no Hoop via browser</li>
+                <li>Listar todas as conexões disponíveis</li>
+                <li>Conectar em múltiplos bancos simultaneamente</li>
+                <li>Verificar status das conexões ativas</li>
+                <li>Notificações automáticas de desconexão</li>
+                <li>Salva portas configuradas automaticamente</li>
+              </ul>
+            ]]></change-notes>
+        </idea-plugin>
     </plugin>
 </plugins>
